@@ -1,0 +1,29 @@
+body {
+
+}
+
+ul{
+    list-style: none;
+}
+.mail {
+    writing-mode: vertical-rl; 
+}
+
+.about-img {
+    position: relative;
+}
+
+.about-img:before {
+    position: absolute;
+    content: '';
+    right: -30px;
+    top: 30px;
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+}
+
+img.me {
+    width: 100%;
+
+}
